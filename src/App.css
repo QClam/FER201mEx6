@@ -1,0 +1,101 @@
+.App {
+  text-align: left;
+}
+
+.App li{
+  display: inline;
+  padding: 1%;
+}
+
+.App ul{
+  background-color: black;
+  padding: 1%;
+}
+
+.App a{
+  text-decoration: none;
+  color: white;
+}
+
+.App a:hover{
+  background-color: rgb(204, 204, 134);
+  color: whitesmoke;
+  padding: 15px;
+}
+
+.App .container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.App .column{
+  margin-left: 15%;
+}
+
+.App img{
+  height: 168px;
+  width: 360px;
+}
+
+.App .card{
+  background-color: rgb(229, 229, 229);
+  width: fit-content;
+}
+
+.App h3{
+  text-align: center;
+}
+
+.App p{
+  text-align: center;
+}
+
+.btn{
+  background-color: black;
+}
+.App button{
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.App .footer{
+  background-color: rgb(180, 180, 17);
+  color: white;
+}
+
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
