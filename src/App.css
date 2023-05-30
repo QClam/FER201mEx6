@@ -17,10 +17,8 @@
   color: white;
 }
 
-.App a:hover{
-  background-color: rgb(204, 204, 134);
-  color: whitesmoke;
-  padding: 15px;
+.App .active:hover{
+  color: yellow;
 }
 
 .App .container{
